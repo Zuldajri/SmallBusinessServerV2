@@ -22,7 +22,10 @@
         "allowedValues": [
             "Free",
             "Basic",
-            "Premium"
+            "Premium",
+            "Standalone",
+            "PerNode",
+            "PerGB2018"
         ],
         "metadata": {
             "description" : "the sku for the OMS workspace"

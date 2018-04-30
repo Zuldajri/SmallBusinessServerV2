@@ -22,7 +22,9 @@
         "allowedValues": [
             "Free",
             "Basic",
-            "Premium"
+            "Premium",
+            "Standalone",
+            "PerNode"
         ],
         "metadata": {
             "description" : "the sku for the OMS workspace"
