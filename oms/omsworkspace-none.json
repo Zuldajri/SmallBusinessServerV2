@@ -24,8 +24,8 @@
             "Basic",
             "Premium",
             "Standalone",
-            "PerNode"
-            
+            "PerNode",
+            "PerGB2018"
         ],
         "metadata": {
             "description" : "the sku for the OMS workspace"
