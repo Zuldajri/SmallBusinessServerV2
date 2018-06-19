@@ -46,7 +46,7 @@
         "baseTemplateUri" : "[parameters('baseTemplateUri')]",
         "vmJumpbox" : {
             "name" : "sra-jumpbox",
-            "vmSize" : "Standard_A1"
+            "vmSize" : "Standard_D8s_v3"
         }
     },
     "resources": [
