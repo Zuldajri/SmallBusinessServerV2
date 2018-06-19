@@ -1,4 +1,4 @@
-﻿Configuration SMB {
+Configuration SMB {
 
     [CmdletBinding()]
 
@@ -81,12 +81,7 @@
             Arguments = '/C:"setup.exe /qn ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_ID=' + $OMSWorkSpaceId + ' OPINSIGHTS_WORKSPACE_KEY=' + $OMSWorkSpaceKey + ' AcceptEndUserLicenseAgreement=1"'
             DependsOn = "[xRemoteFile]OIPackage"
         }
-
-        WindowsFeature Essentials {
-            Ensure = "Present"
-            Name = "ServerEssentialsRole"
-        }
-    
+   
 
 
 
@@ -311,11 +306,3 @@ if($OSVersion.Major -ge 10){
 }
 }
 }
-
-
-
-
-
-
-
-   
