@@ -165,7 +165,7 @@
             },
             "copy" : {
                 "name" : "extraVmCopy",
-                "count" : "[parameters('deploymentSettings').numberOfExtraServers]"
+                "count" : "[int(parameters('deploymentSettings').numberOfExtraServers)]"
             }
         },
         {
@@ -198,7 +198,7 @@
             },
             "copy" : {
                 "name" : "extraVmOnboardingCopy",
-                "count" : "[parameters('deploymentSettings').numberOfExtraServers]"
+                "count" : "[int(parameters('deploymentSettings').numberOfExtraServers)]"
             }
         },
         {
