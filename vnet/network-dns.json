@@ -12,8 +12,8 @@
     "variables": {
         "apiVersion" : {
             "network" : {
-                "virtualNetwork" : "2016-03-30",
-                "networkSecurityGroups" : "2016-03-30"
+                "virtualNetwork" : "2018-04-01",
+                "networkSecurityGroups" : "2018-04-01"
             }
         },
         "resourceLocation" : "[resourceGroup().location]"
